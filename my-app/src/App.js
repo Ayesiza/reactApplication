@@ -17,7 +17,7 @@ class App extends Component{
     },
     {
       id:3,
-      title: 'meeting with boss',
+      title: 'meeting with boss at office',
       completed: false
     }
   ]
@@ -41,6 +41,7 @@ class App extends Component{
       <div className="App">
        <Todos todos={this.state.todos} markComplete={this.markComplete} 
        delTodo={this.delTodo}/>
+      
       </div>
     );
   }
